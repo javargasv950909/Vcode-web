@@ -65,6 +65,13 @@ h2 span {
 }
 
 
+/*Pipe upercase*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
 /*BOOTSTRAP RESET*/
 
 a,
@@ -526,6 +533,16 @@ header.title h2 {
     letter-spacing: 0;
 }
 
+header.subtitle h2 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
 .light h2 span {
     color: #3EC1D5;
 }
@@ -660,8 +677,34 @@ span.quot-name:before {
 }
 
 .about-icon {
-    font-size: 45px;
-    color: #888987;
+    font-size: 48px;
+    color: #000;
+}
+
+
+/* icon */
+
+.check-icon {
+    margin: 0px;
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+}
+
+
+/* */
+
+.videoheader-video {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.video {
+    width: 100%;
 }
 
 .about-detail {
