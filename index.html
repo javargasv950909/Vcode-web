@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<!--
-	Daraz by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-
-
 
 <html lang="en">
 
@@ -13,25 +6,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Daraz by TEMPLATE STOCK</title>
+    <title>Vcode Colombia</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
+    <link href="images/favicon.png" rel="icon">
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Personal css -->
+    <link rel="stylesheet" href="css/personal.css" />
+
+    <!-- whatsapp -->
+    <link rel="stylesheet" href="css/whatsapp.css">
 
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
@@ -39,6 +32,37 @@
 </head>
 
 <body>
+
+        <!-- Load Facebook SDK for JavaScript
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    xfbml: true,
+                    version: 'v7.0'
+                });
+            };
+    
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    
+         <div class="fb-customerchat" attribution=setup_tool page_id="116303643449415" theme_color="#3ec1d5" logged_in_greeting="Hola!, ¿Cómo podemos ayudarte?" logged_out_greeting="Hola!, ¿Cómo podemos ayudarte?">
+        </div> -->
+
+    <!-- Whatsapp -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=573125778007&text=Quiero innovar mi proyecto con Vcode" class="float fadeIn whatsapp" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
     <div class="svg-wrap">
         <svg width="64" height="64" viewBox="0 0 64 64">
         <path id="arrow-left" d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z"></path>
@@ -68,18 +92,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-                        <a class="navbar-brand" href="#header">Daraz</a>
+                        <a class="navbar-brand" href="#header"><span class="vazul"><img src="images/favicon.png" alt="img-fluid" class="vcode"></span>code</a>
                     </div>
                     <!-- /.navbar-header -->
 
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#header">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#info">Info</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#header">Inicio</a></li>
+                            <li><a href="#about">Nosotros</a></li>
+                            <li><a href="#servicios">Servicios</a></li>
+                            <li><a href="#portfolio">Portafolio</a></li>
+                            <li><a href="#contact">Contacto</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -105,7 +128,7 @@
 
                                         <div class="slider-content">
                                             <h1></h1>
-                                            <p>We are a creative agency from the earth of Bandung, Indonesia</p>
+                                            <p>Innovemos el futuro juntos</p>
                                         </div>
 
                                     </div>
@@ -127,9 +150,7 @@
                 </svg>
               </span>
                             <div>
-                                <span>Prev Photo</span>
                                 <h3>...</h3>
-                                <p>...</p>
                                 <img alt="Previous thumb">
                             </div>
                         </a>
@@ -140,9 +161,7 @@
                 </svg>
               </span>
                             <div>
-                                <span>Next Photo</span>
                                 <h3>...</h3>
-                                <p>...</p>
                                 <img alt="Next thumb">
                             </div>
                         </a>
@@ -151,17 +170,14 @@
 
                 <script type="text/javascript">
                     var dataHeader = [{
-                            bigImage: "images/slide-1.jpg",
-                            title: "Minimal & Clean",
-                            author: "Templatestock"
+                            bigImage: "images/BANNER DESARROLLO.png",
+                            title: "Construimos tus ideas con la mejor tecnología"
                         }, {
-                            bigImage: "images/slide-2.jpg",
-                            title: "I'm A Creative Theme",
-                            author: "Templatestock"
+                            bigImage: "images/BANNER DISEÑO.png",
+                            title: "Diseñamos tu marca corporativa"
                         }, {
-                            bigImage: "images/slide-3.jpg",
-                            title: "Achieve Success",
-                            author: "Templatestock"
+                            bigImage: "images/BANNER MARKETING.png",
+                            title: "Realizamos estrategias de ventas"
                         }],
                         loaderSVG = new SVGLoader(document.getElementById('loader'), {
                             speedIn: 600,
@@ -211,12 +227,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-4 col-xs-6">
-                                    <div class="check-icon"><i class="fa fa-pencil-ruler"></i>
+                                    <div class="check-icon"><i class="fa fa-terminal"></i>
                                         <h4>Desarrollo a la medida</h4>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-4 col-xs-6">
-                                    <div class="check-icon"><i class="fa fa-check-double"></i>
+                                    <div class="check-icon"><i class="fa fa-check"></i>
                                         <h4>Precisión y calidad</h4>
                                     </div>
                                 </div>
@@ -226,7 +242,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-4 col-xs-6">
-                                    <div class="check-icon"><i class="fa fa-users-cog"></i>
+                                    <div class="check-icon"><i class="fa fa-group"></i>
                                         <h4>Constante acompañamiento</h4>
                                     </div>
                                 </div>
@@ -308,22 +324,79 @@
             <!-- /.container -->
         </section>
 
+          <!-- Servicios -->
+
+          <section id="servicios" class="light">
+            <header class="title">
+                <h2>Nuestros <span>Servicios</span></h2>
+                <p>Encuentra en nosotros el apoyo para tus proyectos tecnológicos con procesos de ingeniería, diseño y marketing.</p>
+            </header>
+
+            <div class="container-fluid">
+                <div class="row servicios mb-5">
+                    <div class="col">
+                       <div class="mb-3">
+                            <h3>Desarrollo web</h3>
+                            <p>
+                                Diseñamos y construimos tus páginas y aplicaciones web, dándo un valor agregado a tu negocio.
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <h3>Desarrollo móvil</h3>
+                            <p>
+                                Realizamos tus aplicaciones móviles en base a la unión de ingeniería y tecnología.
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <h3>Diseño</h3>
+                            <p>
+                                Creamos contenido gráfico y audiovisual que impactan a tu audiencia, generando un mejor engagement.
+                            </p>
+                        </div>
+                    </div>
+                 </div>  
+
+                <div class="row servicios mb-3">
+                    <div class="col">
+                        <div class="mb-3">
+                            <h3>Marketing Digital</h3>
+                            <p>
+                                Desarrollamos embudos de conversión efectivos que traerán mas clientes a tu negocio.
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <h3>Asesoría tecnológica</h3>
+                            <p>
+                                Diseñamos asesorías personalizadas para tu negocio, dando a tu necesidad la mejor solución.
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <h3>E-commerce con Vcode
+                            </h3>
+                            <p>
+                                Brindamos desarrollo de E-commerce a la medida para que tu negocio incremente en ventas, clientes y vistas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- PORTFOLIO -->
 
         <section id="portfolio" class="light">
             <header class="title">
-                <h2>Portfolio</h2>
-                <p>Lorem ipsum Cupidatat sit irure nostrud ut deserunt ad enim id laboris. Lorem ipsum Enim proident et eu et minim voluptate eiusmod ullamco commodo aliqua amet.</p>
+                <h2>Portafolio</h2>
+                <p>Encuentra en nosotros el apoyo para tus proyectos tecnológicos con procesos de ingeniería, diseño y marketing.</p>
             </header>
 
             <div class="container-fluid">
                 <div class="row">
                     <ul id="filters" class="list-inline">
-                        <li data-filter="all" class="filter">All</li>
-                        <li data-filter=".branding" class="filter">Branding</li>
-                        <li data-filter=".graphic" class="filter">Graphic</li>
-                        <li data-filter=".printing" class="filter">Printing</li>
-                        <li data-filter=".video" class="filter">Video</li>
+                        <li data-filter="all" class="filter">Todos</li>
+                        <li data-filter=".desarrollo" class="filter">Desarrollo</li>
+                        <li data-filter=".diseño" class="filter">Diseño profesional</li>
+                        <li data-filter=".marketing" class="filter">Marketing</li>
                     </ul>
                 </div>
 
@@ -332,53 +405,41 @@
                         <!-- PORTFOLIO OBJECT -->
                         <script type="text/javascript">
                             var portfolio = [{
-                                category: "branding",
-                                image: "images/p-1.png",
-                                title: "Charming <span>Roxy</span>",
+                                category: "desarrollo",
+                                image: "images/PORTAFOLIO APP MOVILES.png",
+                                title: "Desarrollo <span>Móvil</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Diseño y desarrollo de aplicaciones móviles."
                             }, {
-                                category: "graphic",
-                                image: "images/p-2.png",
-                                title: "Fresh <span>Bubba</span>",
+                                category: "desarrollo",
+                                image: "images/PORTAFOLIO APP WEB.png",
+                                title: "Desarrollo <span>Web</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Diseño y desarrollo de aplicaciones web."
                             }, {
-                                category: "graphic",
-                                image: "images/p-3.png",
-                                title: "Wild <span>Romeo</span>",
+                                category: "desarrollo",
+                                image: "images/PORTAFOLIO TIENDAS.png",
+                                title: "Tiendas <span>Virtuales</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Diseño y desarrollo de e-commerce personalizado."
                             }, {
-                                category: "video",
-                                image: "images/p-4.png",
-                                title: "Strange <span>Dexter</span>",
+                                category: "diseño",
+                                image: "images/PORTAFOLIO VIDEO CORPORATIVO.png",
+                                title: "Creación <span>Video</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Creación de videos corporativos."
                             }, {
-                                category: "branding",
-                                image: "images/p-5.png",
-                                title: "Free <span>Sarah</span>",
+                                category: "diseño",
+                                image: "images/PORTAFOLIO MOTION Y FOTOGRAFÍA.png",
+                                title: "Motion <span>Graphics</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Fotografía profesional y motion graphics."
                             }, {
-                                category: "printing",
-                                image: "images/p-6.png",
-                                title: "Chico <span>Silly</span>",
+                                category: "marketing",
+                                image: "images/PORFAOLIO MARKETING.png",
+                                title: "Marketing <span>Digital</span>",
                                 link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
-                            }, {
-                                category: "printing",
-                                image: "images/p-7.png",
-                                title: "IG <span>Shop</span>",
-                                link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
-                            }, {
-                                category: "printing",
-                                image: "images/p-8.png",
-                                title: "Tana <span>Samawa</span>",
-                                link: "#none",
-                                text: "Lorem ipsum Dolor in minim fugiat ut nisi occaecat fugiat. Lorem ipsum Quis tempor Ut enim officia deserunt consectetur."
+                                text: "Marketing digital profesional y funnels."
                             }];
                         </script>
                     </div>
@@ -525,7 +586,7 @@
 
         <!-- INFO -->
 
-        <section id="info" class="dark">
+        <section id="info" class="light">
             <header class="title">
                 <h2>Nuestra <span>Experiencia</span></h2>
                 <p>Contamos con conocimientos específicos en areas de la tecnologia.</p>
@@ -557,56 +618,116 @@
             <!-- /.container -->
         </section>
 
+        <!-- CLIENTES -->
+
+        <section class="dark">
+            <header class="title">
+                <h2>Nuestros <span>Clientes</span></h2>
+                <p>Contamos con conocimientos específicos en areas de la tecnologia.</p>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col clientes">
+                        <div class="alinea">
+                            <img src="images/LOGO1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea sinborde">
+                            <img src="images/LOGO3.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO4.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO5.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea sinborde">
+                            <img src="images/LOGO6.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO7.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO8.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea sinborde">
+                            <img src="images/LOGO9.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO10.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea ">
+                            <img src="images/LOGO11.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea sinborde">
+                            <img src="images/LOGO12.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO13.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea">
+                            <img src="images/LOGO14.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="alinea sinborde">
+                            <img src="images/LOGO15.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
 
         <section class="separator blue">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="row mb-5">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="counter animated" data-animate="fadeInUp" data-delay="0">
                             <div class="counter-icon">
                                 <i class="fa fa-group"></i>
                             </div>
                             <div class="counter-content">
-                                <span class="value" data-from="0" data-to="50"></span>
+                                <span class="value" data-from="0" data-to="15"></span>
                                 <small>Clientes</small>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="counter animated" data-animate="fadeInUp" data-delay="500">
-                            <div class="counter-icon">
-                                <i class="fa fa-leaf"></i>
-                            </div>
-                            <div class="counter-content">
-                                <span class="value" data-from="0" data-to="20"></span>
-                                <small>Awards</small>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
                             <div class="counter-icon">
                                 <i class="fa fa-gears"></i>
                             </div>
                             <div class="counter-content">
-                                <span class="value" data-from="0" data-to="34"></span>
-                                <small>Projects</small>
+                                <span class="value" data-from="0" data-to="25"></span>
+                                <small>Proyectos</small>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
                         <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
                             <div class="counter-icon">
-                                <i class="fa fa-inbox"></i>
+                                <i class="fa fa-flag"></i>
                             </div>
                             <div class="counter-content">
-                                <span class="value" data-from="0" data-to="1298"></span>
-                                <small>Mail</small>
+                                <span class="value" data-from="0" data-to="3"></span>
+                                <small>Países</small>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <p class="text-center counter animated" data-animate="fadeInUp" data-delay="1500">
+                    Con nuestro trabajo impactamos a nuestro clientes nacionales e internacionales
+                </p>
+                <hr>
+                <div class="row banderas counter animated" data-animate="fadeInUp" data-delay="1500">
+                    <div class="col">
+                        <img src="images/BANDERA COLOMBIA.png" alt="" class="img-fluid">
+                        <img src="images/BANDERA ECUADOR.png" alt="" class="img-fluid">
+                        <img src="images/BANDERA CANADA.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -617,7 +738,7 @@
 
         <section id="contact" class="dark">
             <header class="title">
-                <h2><span>Contactanos</span></h2>
+                <h2><span>Contáctanos</span></h2>
                 <p>Nos gustaria que fueras parte de Para nosotros es un placer que hagas parte de esta gran empresa, estamos a un mensaje de distancia, puedes contactarnos para </p>
             </header>
 
@@ -639,7 +760,7 @@
                                     <textarea class="form-control" name="comentarios" placeholder="¿Cómo podemos ayudarte?" required></textarea>
                                 </div>
                                 <div class="col-md-12">
-                                    <button class="btn btn-default submit">Send Message</button>
+                                    <button class="btn btn-default submit">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -669,8 +790,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
-                        <p><small>Images : unsplash.com</small></p>
+                        <p>Todos los derechos reservados © Copyright Vcode Colombia. 2021</p>
+                        <p><small>Vcode Colombia</small></p>
                     </div>
                 </div>
             </div>

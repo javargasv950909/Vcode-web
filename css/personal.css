@@ -1,0 +1,89 @@
+.vazul {
+    color: #3ec1d5;
+}
+
+.servicios { 
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicios .col {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2px;
+}
+
+.banderas .col {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2px;
+}
+
+.banderas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banderas img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.clientes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2px;
+}
+
+.sinborde {
+    border-right: none !important;
+}
+
+.clientes .alinea {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clientes  .alinea img{
+    width: 100px;
+}   
+
+.servicios h3 {
+    color: #3ec1d5;
+}
+
+.vcode {
+    width: 50px;
+    margin-right: -8px;
+    margin-top: -5px;
+}
+
+@media(max-width: 768px) {
+    .servicios .col {
+        display: block;
+    }
+    .clientes {
+        display: block;
+    }
+
+    .clientes .alinea {
+        border: 1px solid #fff !important;
+    }
+
+    .banderas img {
+        width: 80px;
+      }
+
+    .vcode {
+        width: 40px;
+    }
+    
+}
