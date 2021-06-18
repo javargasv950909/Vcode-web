@@ -84,7 +84,7 @@ a:focus {
 }
 
 a {
-    color: #008ED6;
+    color: #00B2FF;
 }
 
 .container-fluid {
@@ -782,28 +782,121 @@ span.quot-name:before {
 
 /*CREATIVE TEAM STYLE*/
 
+.team-member {
+    background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+    display: block;
+    margin-right: -15px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.single-team-member {
+    border: 1px solid #ddd;
+}
+
+.team-member-carousel .single-team-member {
+    overflow: hidden;
+    width: 100%;
+}
+
+.single-team-member:hover .team-img a:after {
+    opacity: 1;
+}
+
+.single-team-member:hover .team-social-icon {
+    top: 45%;
+    opacity: 1;
+}
+
+.team-img {
+    position: relative;
+}
+
+.team-img>a {
+    display: block;
+}
+
+
+/**
+.team-img>a::after {
+    background: rgba(0, 0, 0, 0.70);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+    opacity: 0;
+}
+
+.team-member::before {
+    background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    margin-right: -15px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    transition: 5s;
+    transform: scale(1);
+}
+*/
+
+.fondoimg {
+    margin-bottom: 10px;
+    background-color: #05060D;
+}
+
+.gallery-box img {
+    width: 100%;
+    max-height: 290px;
+    vertical-align: top;
+    transition: all 0.2s ease-in;
+}
+
+
+/*
+.gallery-box img {
+    opacity: 1;
+}
+
+.gallery-box img:hover {
+    opacity: 0.5;
+}*/
+
 #team .wrap {
-    margin: 75px auto 0;
-    max-width: 275px;
-    padding: 40px 10px;
-    background: #F7F7F7;
+    /*margin: 20px auto 0;
+    max-width: 275px;*/
+    padding: 20px 10px;
+    background: #f7f7f7;
     box-shadow: 0px 8px 6px -8px rgba(0, 0, 0, 0.54);
 }
 
+
+/**
 #team .img-team {
     margin: -100px 0 0 0;
     padding: 0;
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #team .wrap img {
     border: 5px solid #EDEDED;
     height: 150px;
     width: 150px;
-}
+}*/
 
 #team .wrap h3 {
     text-transform: uppercase;
@@ -820,9 +913,13 @@ span.quot-name:before {
     color: #666;
 }
 
+#team .wrap a {
+    font-size: 14px;
+    color: #666;
+}
+
 #team .wrap p {
-    font-size: 12px;
-    min-height: 70px;
+    font-size: 14px;
     color: #666;
 }
 
