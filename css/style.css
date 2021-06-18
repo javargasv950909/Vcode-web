@@ -453,6 +453,7 @@ a {
     padding: 0;
     padding-top: 20vh;
     padding-bottom: 50px;
+    margin-top: 15%;
 }
 
 @media(min-width: 768px) {
