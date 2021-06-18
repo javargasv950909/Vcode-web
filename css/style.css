@@ -39,6 +39,19 @@ h2 span {
     opacity: 0;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
 .animated.visible {
     opacity: 1;
 }
@@ -541,6 +554,11 @@ header.subtitle h2 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0;
+}
+
+header.subtitle p {
+    font-size: 16px;
+    color: #000;
 }
 
 .light h2 span {
