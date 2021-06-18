@@ -55,7 +55,6 @@ h2 span {
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.63);
-    background-image: url(../img/overlay-pattern.png) !important;
     background-repeat: repeat;
     background-attachment: fixed;
     top: 0;
@@ -135,7 +134,7 @@ a {
 }
 
 .pageload-overlay svg path {
-    fill: #f7f7f7;
+    fill: #ffffff;
 }
 
 .pageload-overlay::before {
@@ -149,10 +148,11 @@ a {
     opacity: 0;
     margin: 60px 0 0 -25px;
     z-index: 98;
-    background-image: url(../img/bars.svg);
+    background-image: url(../images/preloader.gif);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     background-position: top center;
+    transform: scale(2.0);
 }
 
 @media(min-width: 768px) {
@@ -497,7 +497,6 @@ a {
 
 .dark {
     background-color: #161616;
-    background-image: url(../img/pattern_40.gif);
     background-position: top left;
     background-repeat: repeat;
     color: #fff;
