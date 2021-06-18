@@ -431,3 +431,7 @@ var SliderStatus = true;
 	});
 
 })(jQuery);
+
+
+// pruebas
+

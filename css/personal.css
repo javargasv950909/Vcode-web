@@ -43,6 +43,10 @@
     border-right: none !important;
 }
 
+.sinborde2 {
+    border-bottom: none !important;
+}
+
 .clientes .alinea {
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
@@ -66,6 +70,15 @@
     margin-top: -5px;
 }
 
+.comillas {
+    width: 100px;
+}
+
+.alinearicon {
+    justify-content: center;
+    text-align: center;
+}
+
 @media(max-width: 768px) {
     .servicios .col {
         display: block;
@@ -87,3 +100,7 @@
     }
     
 }
+
+
+/* pruebas */
+
